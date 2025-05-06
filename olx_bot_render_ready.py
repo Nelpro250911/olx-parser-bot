@@ -7,7 +7,6 @@ import re
 import os
 import telegram
 
-# ==== Налаштування через середовище ====
 OLX_TOKEN = os.environ.get("OLX_TOKEN")
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 CHAT_ID = int(os.environ.get("CHAT_ID", "1900314873"))
